@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "dddd",
+  "version": "${version}",
+
+  "name": "Don't Do Death Despawn",
+  "description": "This mod prevents items from despawning if they were dropped as a result of a player death",
+  "authors": [
+    "CmdrNorthpaw"
+  ],
+  "contact": {
+    "sources": "https://github.com/CmdrNorthpaw/Dont-Do-Death-Despawn"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "uk.cmdrnorthpaw.dddd.DontDoDeathDespawn"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
