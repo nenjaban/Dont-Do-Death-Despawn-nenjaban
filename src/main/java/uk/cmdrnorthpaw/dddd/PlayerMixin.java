@@ -1,4 +1,4 @@
-package uk.cmdrnorthpaw.dddd.mixins;
+package uk.cmdrnorthpaw.dddd;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.entity.ItemEntity;

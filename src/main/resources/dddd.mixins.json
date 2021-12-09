@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "uk.cmdrnorthpaw.dddd.mixins",
+  "package": "uk.cmdrnorthpaw.dddd",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "PlayerMixin",
