@@ -1,9 +1,4 @@
-# Fabric Example Mod
+# Don't Do Death Despawn
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This is a teeny-tiny mod that prevents items from despawning if they were dropped as a result of a player death.
+(It does this, if you're interested, by adding `Age: -32768` to the item entities)
