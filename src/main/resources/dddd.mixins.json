@@ -5,8 +5,7 @@
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "PlayerMixin",
-    "PlayerMixin$CombinedInventoryAccessor",
-    "PlayerMixin.CombinedInventoryAccessor"
+    "PlayerMixin$CombinedInventoryAccessor"
   ],
   "client": [],
   "injectors": {

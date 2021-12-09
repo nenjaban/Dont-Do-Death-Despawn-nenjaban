@@ -13,7 +13,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/dddd/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -22,7 +22,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "dddd.mixins.json"
   ],
 
   "depends": {
